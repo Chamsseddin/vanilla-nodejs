@@ -1,0 +1,28 @@
+html {
+    background-color: purple;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background-color: purple;
+    font-family: serif;
+}
+
+.container {
+    padding: 10px;
+}
+
+h1 {
+    color: #fff;
+}
+
+.skill-img {
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+p {
+    color: #fff;
+    font-family: Monospace;
+}
