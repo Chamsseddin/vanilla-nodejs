@@ -28,7 +28,7 @@ const server = http.createServer((req,res) => {
         res.sendFile('JS/script.js',200,{'Content-type':'application/javascript'});
     } else {
         res.statusCode = 400;
-        res.end(`<h1>Error</h1>`);
+        res.end(`Can not ${req.method} ${req.url}`);
     }
 })
 
