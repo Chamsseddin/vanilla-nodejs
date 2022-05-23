@@ -6,7 +6,7 @@ const server = http.createServer((req,res) => {
         fs.readFile(file,'utf-8',(err,content) => {
             if (err) {
                 console.log('Error',err);
-                res.statusCode = 400;
+                res.statusCode = 500;
                 res.end(`<h1>Error</h1>`);
             } else {
                 res.writeHead(status,headers);
